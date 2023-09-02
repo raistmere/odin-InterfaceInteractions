@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar
+{
+    /* General properties */
+    width: auto;
+    height: 25px;
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+
+    /* Flex properties */
+    display: flex;
+    gap: 10px;
+
+}
+
+.navBarMenus
+{
+    /* Flex properties */
+    display: flex;
+    gap: 10px;
+}
+
+.dropDownMenu
+{
+    /* General properties */
+    width: 150px;
+    height: 20px;
+    background-color: rgb(255, 126, 126);
+
+    /* Flex properties */
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.dropDownMenuName
+{
+    /* General properties */
+
+    /* Text properties */
+    text-align: center;
+}
+
+.subMenu
+{
+    width: auto;
+    height: 200px;
+    background-color: crimson;
+}
+
+.subMenuButtonList
+{
+    /* General properties */
+    padding: 1px;
+
+    /* Flex properties */
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.subMenuButton
+{
+    /* General properties */
+    background-color: rgba(255, 255, 255, 0);
+
+    /* Border properties */
+    border-style: none;
+}
+
+.subMenuButton:hover
+{
+    background-color: white;
+}
+
+
+/* Support CSS */
+.hidden
+{
+    display: none;
+}
