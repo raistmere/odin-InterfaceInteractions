@@ -118,7 +118,28 @@
     /* General properties */
     width: 50px;
     height: 50px;
-    background-color: rgb(247, 155, 102);
+    background-color:   rgb(247, 155, 102);
+
+    /* Border properties */
+    border-style: solid;
+    border-color: rgb(247, 155, 102);
+}
+
+.leftArrow:active, .rightArrow:active
+{
+    background-color:   rgb(252, 205, 170);
+}
+
+.leftArrow
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.rightArrow
+{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .imageFrame
