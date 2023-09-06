@@ -79,9 +79,112 @@
     background-color: white;
 }
 
+/*  */
+/* IMAGE CAROUSEL CSS STYLING */
+/*  */
+
+.imageCarouselWrapper
+{
+    /* General properties */
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+
+    /* Flex properties */
+    display: flex;
+}
+
+.imageCarousel
+{
+    /* Flex properties */
+    display: flex;
+    flex-direction: column;
+}
+
+.imageSliderWrapper
+{
+    /* General properties */
+    align-items: center;
+    justify-content: center;
+    /* Flex properties*/
+    display: flex;
+    gap: 10px;
+}
+
+.leftArrow, .rightArrow
+{
+    /* General properties */
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 155, 102);
+}
+
+.imageFrame
+{
+    /* General properties */
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+
+    border-style: solid;
+    border-color: rgb(247, 155, 102);
+}
+
+.image
+{
+    /* General properties */
+    width: 100%;
+    height: 100%;
+}
+
+.image img
+{
+    /* General properties */
+    width: 100%;
+    height: 100%;
+}
+
+.navCirclesWrapper
+{
+    /* General properties */
+    width: auto;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+
+    /* Flex properties */
+    display: flex;
+    gap: 5px;
+}
+
+.navCircle
+{
+    /* General properties */
+    width: 15px;
+    height: 15px;
+    background-color: rgb(247, 155, 102);
+
+    /* Border properties */
+    border-radius: 10px;
+}
+
 
 /* Support CSS */
 .hidden
 {
     display: none;
+}
+
+.highlight
+{
+    /* General properties */
+    background-color:   rgb(252, 205, 170);
+
+    /* Border properties */
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: rgb(247, 155, 102);
+    border-width: 1px;
 }
